@@ -1,7 +1,7 @@
 import tensorflow as tf
 from tensorflow.keras.layers import AveragePooling2D, Conv2D, Dense, Flatten
 from tensorflow.keras.activations import relu, softmax, tanh
-from tensorflow.python.keras.layers import Dropout, BatchNormalization
+from tensorflow.keras.layers import Dropout, BatchNormalization
 
 import datasets
 

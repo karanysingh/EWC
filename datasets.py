@@ -5,7 +5,7 @@ scalable to large arrays.
 
 import numpy as np
 import tensorflow as tf
-from tensorflow.python.keras.layers import Normalization, RandomTranslation, RandomFlip
+from tensorflow.keras.layers import Normalization, RandomTranslation, RandomFlip
 
 dataset_dict = {
     "mnist": tf.keras.datasets.mnist,
